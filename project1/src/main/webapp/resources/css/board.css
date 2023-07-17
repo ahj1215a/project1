@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: #dfc195;
+}
+
+.imgdiv {
+	width:100%;
+	height:auto;
+	text-align: center;
+}
+
+table{
+	margin:0 auto;
+	width: 800px;
+	height: 500px;
+	border-collapse: collapse;
+	border-radius: 5px;
+	border-color: #579d2d;
+	
+}
+th {
+	height:50px;
+	border-bottom: 2px solid #579d2d;
+	background-color: #ff9e4f;
+}
+td {
+	text-align:center;
+	border-bottom: 3px solid #579d2d;
+}
+
+.td1{
+	width: 10%;
+}
+
+.td2{
+	width: 20%;
+}
+
+.title{
+	text-align: left;
+}
+
+tr:hover {
+	background-color: #a7c065;
+}
