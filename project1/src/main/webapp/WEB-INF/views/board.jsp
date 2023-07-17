@@ -16,6 +16,7 @@
 	<a href="./index">index로 가기</a>
 	<br>
 	<br>
+	<button type="button" onclick="location.href='write.jsp'">글쓰기</button>
 	<table>
 		<tr>
 			<th>번호</th>
