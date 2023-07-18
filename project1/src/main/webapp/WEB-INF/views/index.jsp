@@ -5,9 +5,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="./css/menu.css">
+<link rel="stylesheet" href="./css/detail.css">
+<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<h1>index</h1>
-	<a href="./board">보드로 가기</a>
+<%@ include file="menu.jsp" %>
+	<h1>메인화면입니다.</h1>
+	
+
 </body>
 </html>

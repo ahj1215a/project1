@@ -7,16 +7,18 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="./css/board.css">
+<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<h1>보드</h1>
+	<%@ include file="menu.jsp"%>
+	<h1>게시판</h1>
 	<div class="imgdiv">
-	<img alt="" src="./img/당근.png" height="250px" >
+		<img alt="" src="./img/당근.png" height="250px">
 	</div>
-	<a href="./index">index로 가기</a>
 	<br>
 	<br>
-	<button type="button" onclick="location.href='write.jsp'">글쓰기</button>
+	<button onclick="location.href='./write'">글쓰기</button>
 	<table>
 		<tr>
 			<th>번호</th>
@@ -38,6 +40,10 @@
 		</c:forEach>
 
 	</table>
+
+
+
+
 
 </body>
 </html>

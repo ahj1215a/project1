@@ -2,19 +2,21 @@
 
 
 body {
-	background-color: #dfc195;
+	background-color: #ffe7c8;
 }
 
 .imgdiv {
 	width:100%;
 	height:auto;
 	text-align: center;
+	
 }
 
+
 button {
-	width:60px;
-	height:25px;
-	background-color: #92c058;
+	width:70px;
+	height:30px;
+	background-color: #a5cb76;
 	
 }
 
@@ -29,12 +31,12 @@ table{
 }
 th {
 	height:50px;
-	border-bottom: 2px solid #579d2d;
-	background-color: #ff9e4f;
+	border-bottom: 2px solid #69be36;
+	background-color: #ffab66;
 }
 td {
 	text-align:center;
-	border-bottom: 3px solid #579d2d;
+	border-bottom: 3px solid #69be36;
 }
 
 .td1{
@@ -50,5 +52,5 @@ td {
 }
 
 tr:hover {
-	background-color: #a7c065;
+	background-color: #cad9a4;
 }
