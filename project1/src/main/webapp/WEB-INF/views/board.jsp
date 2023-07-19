@@ -18,7 +18,9 @@
 	</div>
 	<br>
 	<br>
+	<div class ="btn1">
 	<button onclick="location.href='./write'">글쓰기</button>
+	</div>
 	<table>
 		<tr>
 			<th>번호</th>

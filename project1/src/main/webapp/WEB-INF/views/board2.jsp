@@ -12,9 +12,6 @@
 </head>
 <body>
 <%@ include file="menu.jsp" %>
-	<h1>당근 판매합니다.</h1>
-	<div class="indeximg">
-	<img alt="" src="./img/당근2.jpeg" height="500px">
-	</div>
+	<h1>게시판2</h1>
 </body>
 </html>

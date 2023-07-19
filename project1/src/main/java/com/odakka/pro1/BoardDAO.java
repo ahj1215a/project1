@@ -32,4 +32,9 @@ public class BoardDAO {
 		
 	}
 	
+	public void delete(BoardDTO dto) {
+		sqlSession.delete("board.delete", dto);
+	}
+	
+	
 }
