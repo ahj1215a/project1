@@ -10,6 +10,14 @@
 <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 
 <script type="text/javascript">
+
+function edit() {
+	if (confirm("수정하시렵니까?")) {
+		location.href="./edit?bno=${dto.bno }";
+	}
+}
+
+
 function del() {
 	let chk =  confirm("삭제할끼가?ㅠㅠ") //참 거짓으로 나옵니다.
 	//alert(chk);
@@ -38,7 +46,7 @@ function del() {
 		</div>
 		<div class="title">
 		${dto.bno }/${dto.btitle }
-		<img alt="" src="./img/write.png" height="30px"> <img alt="" src="./img/delete.png" height="30px" onclick="del()">
+		<img alt="" src="./img/write.png" height="30px" onclick="edit()" > <img alt="" src="./img/delete.png" height="30px" onclick="del()">
 		</div>
 		<div class="name-bar">
 			<div class="name">${dto.bwrite }님</div>

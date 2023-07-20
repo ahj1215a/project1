@@ -12,6 +12,7 @@
 		<li onclick="link('board2')"> <img alt="" src="./img/board.png" height="40px"></li>
 		<li onclick="link('mooni')"> <img alt="" src="./img/mooni.png" height="45px"></li>
 		<li onclick="link('notice')"><img alt="" src="./img/notice.png" height="45px"></li>
+		<li onclick="link('login')"><img alt="" src="./img/login.png" height="45px"></li>
 
 	</ul>
 </nav>

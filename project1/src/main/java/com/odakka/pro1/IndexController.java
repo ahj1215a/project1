@@ -27,5 +27,9 @@ public class IndexController {
 		return "notice";
 	}
 	
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
 
 }

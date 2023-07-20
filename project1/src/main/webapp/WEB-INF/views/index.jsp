@@ -13,8 +13,9 @@
 <body>
 <%@ include file="menu.jsp" %>
 	<h1>당근 판매합니다.</h1>
+	<h2></h2>
 	<div class="indeximg">
-	<img alt="" src="./img/당근2.jpeg" height="500px">
+	<img alt="" src="./img/당근흔들어.gif" height="700px">
 	</div>
 </body>
 </html>

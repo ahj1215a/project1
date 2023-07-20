@@ -12,6 +12,6 @@
 </head>
 <body>
 <%@ include file="menu.jsp" %>
-	<h1>게시판2</h1>
+	<h1>🤫쉿 비밀이야</h1>
 </body>
 </html>
