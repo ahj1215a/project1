@@ -1,4 +1,16 @@
+
 @charset "UTF-8";
+
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+* {
+	font-family: 'DungGeunMo';
+}
 
 body {
 	margin: 0;
@@ -32,11 +44,10 @@ nav li {
 
 nav li:hover {
 	/*background-color: #ffa55b;*/
-	color:#ffffff;
 	font-weight: bold;
 	font-style: italic;
 }
-
-
-
-
+.lir, .liw {
+	float: right;
+	font-size: small; 
+	}

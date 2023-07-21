@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Home</title>
 <link rel="stylesheet" href="./css/menu.css">
 <link rel="stylesheet" href="./css/detail.css">
 <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
@@ -13,7 +13,6 @@
 <body>
 	<%@ include file="menu.jsp"%>
 	<h1>Index</h1>
-	<%=request.getHeader("User-Agent")%>
 
 </body>
 </html>

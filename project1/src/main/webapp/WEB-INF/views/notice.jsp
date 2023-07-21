@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>notice</title>
 <link rel="stylesheet" href="./css/menu.css">
 <link rel="stylesheet" href="./css/detail.css">
 <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">

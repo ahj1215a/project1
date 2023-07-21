@@ -5,6 +5,6 @@
 <configuration>
 	<typeAliases>
 		<typeAlias type="com.odakka.pro1.BoardDTO" alias="boardDTO"/>
-		
+		<typeAlias type="com.odakka.pro1.LoginDTO" alias="loginDTO" />	
 	</typeAliases>
 </configuration>
