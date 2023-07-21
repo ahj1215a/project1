@@ -14,7 +14,7 @@
 	<%@ include file="menu.jsp"%>
 	<h1>게시판</h1>
 	<div class="imgdiv">
-		<img alt="" src="./img/당근.png" height="250px">
+		<img alt="" src="./img/당근흔들어.gif" height="300px">
 	</div>
 	<br>
 	<br>

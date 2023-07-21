@@ -11,11 +11,9 @@
 <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<%@ include file="menu.jsp" %>
-	<h1>당근 판매합니다.</h1>
-	<h2></h2>
-	<div class="indeximg">
-	<img alt="" src="./img/당근흔들어.gif" height="700px">
-	</div>
+	<%@ include file="menu.jsp"%>
+	<h1>Index</h1>
+	<%=request.getHeader("User-Agent")%>
+
 </body>
 </html>

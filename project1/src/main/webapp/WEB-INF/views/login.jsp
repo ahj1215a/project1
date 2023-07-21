@@ -13,11 +13,11 @@
 <body>
 <%@ include file="menu.jsp" %>
 	<div class="loginpg">
-		<h1>Login</h1> <br>
+		<h1>Login</h1>
 		<form method="post" action="서버의url" id="login-form">
 			<input type="text" name="username" placeholder="아이디를 입력하세요.">
 			<input type="password" name="userPassword" placeholder="비밀번호를 입력하세요." >
-			<input type="submit" value="Login">
+			<input type="submit" value="Login" class="loignbt">
 		</form>
 
 	</div>
